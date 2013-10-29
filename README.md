@@ -34,8 +34,12 @@ Attempt to launch a selenium instance, binding to `process.env.SELENIUM_LAUNCHER
 
 ### Environment Variables
 
-**process.env.SELENIUM_LAUNCHER_PORT**
-If set when running grunt, defines the preferred port to run Selenium on. After the task has run, has the value of the port selenium bound on.
+**SELENIUM_LAUNCHER_PORT**
+If exported in the shell *before* running grunt, defines the preferred port to run Selenium on. After the task has run, while inside the node environment it has the value of the port selenium eventually bound on.
 
-**process.env.SELENIUM_HUB**
-After the task has run, has the string URI for webdriver hub connection. Use this string when connecting clients to selenium.
+```bash
+SELENIUM_LAUNCHER_PORT=4567 grunt selenium-launch webdriverTask
+```
+
+**SELENIUM_HUB**
+After the task has run, has the string URI for webdriver hub connection. Use this string when connecting clients to selenium. See the above examples.
