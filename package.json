@@ -21,9 +21,9 @@
   },
   "devDependencies": {
     "grunt": "~0.4.1",
-    "selenium-webdriver": "~2.35.2"
   },
   "dependencies": {
+    "selenium-webdriver": "~2.35.2",
     "selenium-launcher": "~1.1.7"
   }
 }
