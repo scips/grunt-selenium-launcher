@@ -20,10 +20,10 @@
     "url": "https://github.com/DavidSouther/grunt-selenium-launcher/issues"
   },
   "devDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": "~0.4.4"
   },
   "dependencies": {
     "selenium-webdriver": "~2.41.0",
-    "selenium-launcher": "~1.1.7"
+    "selenium-launcher": "~1.1.10"
   }
 }
